@@ -29,7 +29,7 @@ df_products=pd.read_csv("C:\\Users\\antonio\PycharmProjects\Mi_Primer_ETL\data/e
 #df_suppliers=pd.read_csv("C:\\Users\\antonio\PycharmProjects\Mi_Primer_ETL\data/ecommerce_suppliers.csv")
 #df_warehouses=pd.read_csv("C:\\Users\\antonio\PycharmProjects\Mi_Primer_ETL\data/ecommerce_warehouses.csv")
 #Explorar
-print(f"\n Resumen:")nnn
+print(f"\n Resumen:")
 print(f"Orders: {len(df_orders)} filas,{len(df_orders.columns)} columnas")
 print(f"Order_Items: {len(df_order_items)} filas,{len(df_order_items.columns)} columnas")
 print(f"Customers: {len(df_customers)} filas,{len(df_customers.columns)} columnas")
