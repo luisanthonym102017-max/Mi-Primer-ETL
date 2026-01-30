@@ -1,0 +1,6 @@
+warehouse_id,warehouse_name,location,capacity_units,current_occupancy,manager_name
+1,Depósito 1,Buenos Aires,77927,61,Diego Fernández
+2,Depósito 2,Córdoba,11553,59,Martín González
+3,Depósito 3,Rosario,40454,57,Martín González
+4,Depósito 4,Mendoza,92928,93,Diego Fernández
+5,Depósito 5,La Plata,71048,63,Sofía Ramírez
