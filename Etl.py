@@ -1,8 +1,16 @@
 from operator import index
+from re import split
 
 import pandas as pd
 import glob
 import os
+
+ventas_csv=pd.read_csv('C:\\Users\\antonio\Desktop/ventas.csv')
+print(ventas_csv.head())
+print(ventas_csv.info())
+filas,col=ventas_csv.shape
+print(filas,col)
+
 
 #Etapa de Extraccion
 #verficamos que los archivos existen
@@ -173,4 +181,6 @@ python etl.py
 with open('Readme.md','w') as f:
     f.write(readme_content)
 print("Readme.md creado dghdd jshjs fhjhjfhjf  ")
+
+
 
